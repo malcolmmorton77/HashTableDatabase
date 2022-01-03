@@ -1,0 +1,6 @@
+empId
+empId,firstName,lastName,phone,salary,job,email,departId
+1,john,smith,1234567890,5000.00,manager,abc.gmail.com,100
+2,david,miller,1234567890,6000.00,analyst,abc2.gmail.com,200
+3,mary,williams,1234567890,5500.00,sales,abc3.gmail.com,300
+4,nancy,taylor,1234567890,7000.00,clerk,abc4.gmail.com,400

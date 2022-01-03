@@ -1,0 +1,6 @@
+projId
+projId,empId,projName,startDate,endDate,empTime
+10,1,empdb,10/01/20,10/15/20,0.5
+20,2,empdb2,10/5/20,10/20/20,0.3
+30,3,empdb3,10/15/20,11/01/20,0.6
+40,4,empdb4,10/25/20,11/15/20,1.0

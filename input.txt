@@ -1,0 +1,22 @@
+employee.csv employee
+department.csv department
+project.csv project
+
+DISPLAY()
+INSERT((5,elon,musk,0123456789,10000.00,analyst,abc10.gmail.com,200),employee)
+INSERT((500,engineering,fortworth,1,50),department)
+INSERT((50,1,tesla,1/1/20,6/1/20,0.8),project)
+INSERT((20,bill,gates,0123456789,10000.00,programmer,abc10.microsoft.com,300),employee)
+UPDATE((400,research,dallas-fortworth,1,50),department)
+UPDATE((40,1,updatedDb,1/1/20,6/1/21,0.4),project)
+UPDATE((999,bill,gates,0123456789,10000.00,programmer,abc10.microsoft.com,300),employee)
+SELECT((500,engineering,abc,1,50),department)
+SELECT((*,*,musk,*,*,*,*,*),employee)
+SELECT((40,1,updatedDb,1/1/20,6/1/21,0.4),project)
+SELECT((*,*,test,*,*,*,*,*),employee)
+DELETE((30,3,empdb3,10/15/20,11/01/20,0.6),project)
+DELETE((1000,*,*,*,*),department)
+DELETE((999,bill,gates,0123456789,10000.00,programmer,abc10.microsoft.com,300),employee)
+PROJECT(SELECT((*,*,*,*,*,*,*,*),employee),empId,departId)
+DISPLAY()
+WRITE()
